@@ -15,7 +15,7 @@ def main():
         events = events_result.get('items', [])
 
         if not events:
-            print('No upcoming events found.')
+            continue
         for event in events:
             start = event['start'].get('dateTime', event['start'].get('date'))
             if now == start:
