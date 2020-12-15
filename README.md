@@ -10,9 +10,9 @@ This project is made using Python3.
   
 ### Working of auth.py
 
-  `import datetime
-  import pickle
-  import os.path
-  from googleapiclient.discovery import build
-  from google_auth_oauthlib.flow import InstalledAppFlow
-  from google.auth.transport.requests import Request`
+  `import datetime\n
+  import pickle\n
+  import os.path\n
+  from googleapiclient.discovery import build\n
+  from google_auth_oauthlib.flow import InstalledAppFlow\n
+  from google.auth.transport.requests import Request\n`
